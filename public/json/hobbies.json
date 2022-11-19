@@ -1,0 +1,14 @@
+[
+    {
+        "hobby": "Gaming",
+        "description": "I like competitive shooting games."
+    },
+    {
+        "hobby": "Reading",
+        "description": "I like to read book, and listen to audiobooks to learn more."
+    },
+    {
+        "hobby": "Gym",
+        "description": "I like to be in good shape and have a healthy life."
+    }
+]

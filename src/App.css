@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  font-family: Lato, sans-serif;
+  background-color: #F2F2F2;
+  color: #4F4F4F;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main {
+  margin: 80px auto;
+  display: flex;
+  justify-content: center;
+  max-width: 90vw;
+  gap: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-left {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 30px;
+  width: 320px;
 }
 
-.App-link {
-  color: #61dafb;
+.container-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* ========== Container-Experiences =========  */
+.container-experiences {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 12px;
+  box-shadow: 1px 2px 20px 5px rgba(90, 90, 90, 0.1);
+}
+
+
+/* ============= Container-Hobbies =============== */
+.container-hobbies {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 1px 2px 20px 5px rgba(90, 90, 90, 0.1);
+}
+
+/* ============= Container-Career ========= */
+
+.container-careers {
+  display: flex;
+  gap: 20px;
+
+}
+
+.container-technologies {
+  width: 100%;
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  align-self: flex-start;
+  box-shadow: 1px 2px 20px 5px rgba(90, 90, 90, 0.1);
+}
+
+.container-technologies .title-years {
+  margin: 10px auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+/* ============ Credit =========== */
+.credit {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: .9rem;
+}
+
+.credit a {
+  color: #4F4F4F;
+  text-decoration: none;
+}
+
+.credit a:hover {
+  color: #2F80ED;
+}
+
+@media (max-width:1420px) {
+  .container-careers {
+    max-width: 600px;
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width:690px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-left {
+    width: auto;
+  }
+
+  .container-right {
+    width: auto;
   }
 }

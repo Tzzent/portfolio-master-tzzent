@@ -1,0 +1,81 @@
+.container-technology {
+    margin-top: 20px;
+    gap: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.container-technology p {
+    width: 50%;
+    overflow-wrap: anywhere;
+}
+
+.container-progress {
+    position: relative;
+    background-color: #C4C4C4;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 15px;
+}
+
+.container-progress::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    border-radius: 12px;
+    background-color: #2F80ED;
+    animation: progress-bar-fill 2s ease-in-out forwards;
+}
+
+.container-progress.progress-10::after {
+    width: 10%;
+    left: -10%;
+}
+
+.container-progress.progress-20::after {
+    width: 20%;
+    left: -20%;
+}
+
+.container-progress.progress-30::after {
+    width: 30%;
+    left: -30%;
+}
+
+.container-progress.progress-40::after {
+    width: 40%;
+    left: -40%;
+}
+
+.container-progress.progress-50::after {
+    width: 50%;
+    left: -50%;
+}
+
+.container-progress.progress-60::after {
+    width: 60%;
+    left: -60%;
+}
+
+.container-progress.progress-70::after {
+    width: 70%;
+    left: -70%;
+}
+
+.container-progress.progress-80::after {
+    width: 80%;
+    left: -80%;
+}
+
+.container-progress.progress-90::after {
+    width: 90%;
+    left: -90%;
+}
+
+@keyframes progress-bar-fill {
+    to {
+        transform: translateX(100%);
+    }
+}
