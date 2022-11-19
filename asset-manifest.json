@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-master-tzzent/static/css/main.514035a7.css",
+    "main.js": "/portfolio-master-tzzent/static/js/main.d100fbd7.js",
+    "static/media/hobby-Gym.jpg": "/portfolio-master-tzzent/static/media/hobby-Gym.2867fe5374730b3dc553.jpg",
+    "static/media/hobby-Gaming.jpg": "/portfolio-master-tzzent/static/media/hobby-Gaming.1740b3a51ac32206d262.jpg",
+    "static/media/hobby-Reading.jpg": "/portfolio-master-tzzent/static/media/hobby-Reading.96e354f195ace6de6dba.jpg",
+    "static/media/ws-gallery.png": "/portfolio-master-tzzent/static/media/ws-gallery.24bbd69ff4a27068d785.png",
+    "static/media/ws-recipe.png": "/portfolio-master-tzzent/static/media/ws-recipe.6318dea1d25653885d1a.png",
+    "static/media/profile-tzzent.jpg": "/portfolio-master-tzzent/static/media/profile-tzzent.4a14a1acfe4c87b7e7eb.jpg",
+    "static/media/ws-portfolio.png": "/portfolio-master-tzzent/static/media/ws-portfolio.bbba455795eb813f56f1.png",
+    "static/media/ws-calculator.png": "/portfolio-master-tzzent/static/media/ws-calculator.bf34197c03d8c513a286.png",
+    "static/media/ws-taskapp.png": "/portfolio-master-tzzent/static/media/ws-taskapp.2367cd88be18a1bdd2c0.png",
+    "index.html": "/portfolio-master-tzzent/index.html",
+    "main.514035a7.css.map": "/portfolio-master-tzzent/static/css/main.514035a7.css.map",
+    "main.d100fbd7.js.map": "/portfolio-master-tzzent/static/js/main.d100fbd7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.514035a7.css",
+    "static/js/main.d100fbd7.js"
+  ]
+}

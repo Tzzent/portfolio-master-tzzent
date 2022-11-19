@@ -1,0 +1,22 @@
+[
+    {
+        "technology": "HTML",
+        "progress": "70"
+    },
+    {
+        "technology": "CSS",
+        "progress": "60"
+    },
+    {
+        "technology": "Bootstrap",
+        "progress": "40"
+    },
+    {
+        "technology": "JavaScript",
+        "progress": "50"
+    },
+    {
+        "technology": "React",
+        "progress": "40"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "project": "recipe",
+        "tags": "#HTML #CSS #responsive",
+        "title": "Recipe Blog",
+        "description": "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. I have been reinforcing my knowledge that is mentioned on the labels.",
+        "linkdemo": "https://classiccheesecakerecipe.web.app/",
+        "linkcode": "https://github.com/Tzzent/ClassicCheesecakeRecipe"
+    },
+    {
+        "project": "gallery",
+        "tags": "#HTML #CSS #responsive",
+        "title": "Gallery",
+        "description": "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. I have been reinforcing my knowledge that is mentioned on the labels.",
+        "linkdemo": "https://gallery-3dfa3.web.app/",
+        "linkcode": "https://github.com/Tzzent/Gallery"
+    },
+    {
+        "project": "calculator",
+        "tags": "#HTML #CSS #JavaScript #React",
+        "title": "Calculator App",
+        "description": "In this project, I work with HTML, CSS, JavaScript, and React to create a calculator app. I have also been reinforcing my knowledge that is mentioned on the labels.",
+        "linkdemo": "https://tzzent.github.io/Calculator-React-App/",
+        "linkcode": "https://github.com/Tzzent/Calculator-React-App"
+    },
+    {
+        "project": "taskapp",
+        "tags": "#HTML #CSS #JavaScript #React",
+        "title": "Task App",
+        "description": "In this project, I work with HTML, CSS, JavaScript, and React to create a task app that works with LocalStorage. I have also been reinforcing my knowledge that is mentioned on the labels.",
+        "linkdemo": "https://tzzent.github.io/Task-App-with-React/",
+        "linkcode": "https://github.com/Tzzent/Task-App-with-React"
+    }
+]
